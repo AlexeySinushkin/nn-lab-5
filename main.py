@@ -1,7 +1,6 @@
 import torch
-import matplotlib.pyplot as plt
 from data_loader import download_data, prepare_dataloaders, SimpleSegmentationDataset
-from model import UNet
+from model import UNet, VGGUNet
 from train import train_model
 from visualize import visualize
 
@@ -40,8 +39,11 @@ def visualize_test(model):
     dataset = SimpleSegmentationDataset(test_dataset, y_test)
     visualize(model, dataset)
 
-#model = run(UNet(num_classes=num_classes))
+#model = train(UNet(num_classes=num_classes))
 #torch.save(model.state_dict(), f"unet_epoch_25.pth") # можно включить сохранение модели на диск
-model = UNet(num_classes=num_classes)
-torch.load("unet_epoch_25.pth", model.state_dict())
+#model = UNet(num_classes=num_classes)
+#torch.load("unet_epoch_25.pth", model.state_dict())
+
+model = train(VGGUNet(num_classes=num_classes))
+torch.save(model.state_dict(), f"vgg_epoch_25.pth")
 visualize_test(model)

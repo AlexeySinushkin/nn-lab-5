@@ -31,7 +31,7 @@ class SimpleSegmentationDataset():
 def download_data(path):
     data = []
     for path_image in sorted(os.listdir(path=path)):
-        image = Image.open(path + "/" + path_image)
+        image = Image.open(path + "/" + path_image).resize((260, 484))
         data.append(np.array(image))
     return data
 
