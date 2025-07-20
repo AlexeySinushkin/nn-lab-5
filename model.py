@@ -118,8 +118,9 @@ class VGGUNet(nn.Module):
         x = (x - self.mean) / self.std
         return x
 
-    def crop_or_resize(to_resize, target_size):
-        return nn.functional.interpolate(to_resize, size=target_size, mode='bilinear', align_corners=False)
+    def crop_to_match(self, src, target):
+        _, _, h, w = target.shape
+        return nn.functional.interpolate(src, size=(h, w), mode='bilinear', align_corners=False)
 
     def forward(self, x):
         original_size = x.shape[2:]
@@ -133,12 +134,24 @@ class VGGUNet(nn.Module):
         b = self.bottleneck(p4)
 
         u4 = self.up4(b); u4 = torch.cat([u4, c4], dim=1); d4 = self.dec4(u4)
-        u3 = self.up3(d4); u3 = torch.cat([u3, c3], dim=1); d3 = self.dec3(u3)
-        u2 = self.up2(d3); u2 = torch.cat([u2, c2], dim=1); d2 = self.dec2(u2)
-        u1 = self.up1(d2); u1 = torch.cat([u1, c1], dim=1); d1 = self.dec1(u1)
+
+        u3 = self.up3(d4)
+        c3 = self.crop_to_match(c3, u3)
+        u3 = torch.cat([u3, c3], dim=1)
+        d3 = self.dec3(u3)
+
+        u2 = self.up2(d3)
+        c2 = self.crop_to_match(c2, u2)
+        u2 = torch.cat([u2, c2], dim=1)
+        d2 = self.dec2(u2)
+
+        u1 = self.up1(d2)
+        c1 = self.crop_to_match(c1, u1)
+        u1 = torch.cat([u1, c1], dim=1)
+        d1 = self.dec1(u1)
 
         out = self.up_final(d1)
         out = nn.functional.relu(out)
-        out = nn.functional.interpolate(out, size=original_size, mode='bilinear', align_corners=False)
+        out = nn.functional.interpolate(out, size=(256, 480), mode='bilinear', align_corners=False)
         out = self.final(out)
         return out

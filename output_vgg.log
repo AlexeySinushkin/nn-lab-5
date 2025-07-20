@@ -1,0 +1,437 @@
+C:\Users\user\Desktop\tgucv\NN\nn-lab-5\.venv\Scripts\python.exe main.py
+2.2.2+cu118
+C:\Users\user\Desktop\tgucv\NN\nn-lab-5\.venv\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\user\Desktop\tgucv\NN\nn-lab-5\.venv\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+True
+NVIDIA P106-100
+Step [0/76] :: loss 3.5973775386810303
+Step [1/76] :: loss 3.596292018890381
+Step [2/76] :: loss 3.5951526165008545
+Step [3/76] :: loss 3.593904972076416
+Step [4/76] :: loss 3.5900771617889404
+Step [5/76] :: loss 3.579951047897339
+Step [6/76] :: loss 3.5602505207061768
+Step [7/76] :: loss 3.5206010341644287
+Step [8/76] :: loss 3.3976492881774902
+Step [9/76] :: loss 3.057713747024536
+Step [10/76] :: loss 2.9565579891204834
+Step [11/76] :: loss 2.3929202556610107
+Step [12/76] :: loss 2.269117832183838
+Step [13/76] :: loss 1.8560998439788818
+Step [14/76] :: loss 1.0760078430175781
+Step [15/76] :: loss 0.28558504581451416
+Step [16/76] :: loss 0.1387394219636917
+Step [17/76] :: loss 0.12563085556030273
+Step [18/76] :: loss 0.14580011367797852
+Step [19/76] :: loss 0.16415956616401672
+Step [20/76] :: loss 0.15836171805858612
+Step [21/76] :: loss 0.15216697752475739
+Step [22/76] :: loss 0.11316155642271042
+Step [23/76] :: loss 0.11361608654260635
+Step [24/76] :: loss 0.11308611184358597
+Step [25/76] :: loss 0.1112682893872261
+Step [26/76] :: loss 0.11005561053752899
+Step [27/76] :: loss 0.10031913965940475
+Step [28/76] :: loss 0.08571558445692062
+Step [29/76] :: loss 0.08499686419963837
+Step [30/76] :: loss 0.08489224314689636
+Step [31/76] :: loss 0.08491422235965729
+Step [32/76] :: loss 0.08486974984407425
+Step [33/76] :: loss 0.08488300442695618
+Step [34/76] :: loss 0.08480054140090942
+Step [35/76] :: loss 0.08482074737548828
+Step [36/76] :: loss 0.08484448492527008
+Step [37/76] :: loss 0.08475892245769501
+Step [38/76] :: loss 0.0847996175289154
+Step [39/76] :: loss 0.08481569588184357
+Step [40/76] :: loss 0.08476531505584717
+Step [41/76] :: loss 0.08477338403463364
+Step [42/76] :: loss 0.084726482629776
+Step [43/76] :: loss 0.0847683697938919
+Step [44/76] :: loss 0.08474306762218475
+Step [45/76] :: loss 0.08473613113164902
+Step [46/76] :: loss 0.08471009880304337
+Step [47/76] :: loss 0.08470136672258377
+Step [48/76] :: loss 0.08469796925783157
+Step [49/76] :: loss 0.08470059186220169
+Step [50/76] :: loss 0.08467020094394684
+Step [51/76] :: loss 0.08466869592666626
+Step [52/76] :: loss 0.0846845731139183
+Step [53/76] :: loss 0.08466558158397675
+Step [54/76] :: loss 0.08464252203702927
+Step [55/76] :: loss 0.08463576436042786
+Step [56/76] :: loss 0.08462687581777573
+Step [57/76] :: loss 0.0846017450094223
+Step [58/76] :: loss 0.08459562808275223
+Step [59/76] :: loss 0.08458297699689865
+Step [60/76] :: loss 0.08457627147436142
+Step [61/76] :: loss 0.08457246422767639
+Step [62/76] :: loss 0.08457115292549133
+Step [63/76] :: loss 0.08457060158252716
+Step [64/76] :: loss 0.08457043021917343
+Step [65/76] :: loss 0.08457030355930328
+Step [66/76] :: loss 0.08457005023956299
+Step [67/76] :: loss 0.08457008004188538
+Step [68/76] :: loss 0.08456990122795105
+Step [69/76] :: loss 0.084569551050663
+Step [70/76] :: loss 0.08456935733556747
+Step [71/76] :: loss 0.08456919342279434
+Step [72/76] :: loss 0.0845690369606018
+Step [73/76] :: loss 0.08456894755363464
+Step [74/76] :: loss 0.08456869423389435
+Step [75/76] :: loss 0.08456853032112122
+Epoch 1/5 - Train Loss: 0.6781 | Val Loss: 0.0846
+Step [0/76] :: loss 0.08456835895776749
+Step [1/76] :: loss 0.08456818759441376
+Step [2/76] :: loss 0.08456801623106003
+Step [3/76] :: loss 0.08456785976886749
+Step [4/76] :: loss 0.08456782251596451
+Step [5/76] :: loss 0.08456751704216003
+Step [6/76] :: loss 0.08456741273403168
+Step [7/76] :: loss 0.08456717431545258
+Step [8/76] :: loss 0.08456700295209885
+Step [9/76] :: loss 0.08456683903932571
+Step [10/76] :: loss 0.08456666767597198
+Step [11/76] :: loss 0.08456649631261826
+Step [12/76] :: loss 0.0845663845539093
+Step [13/76] :: loss 0.0845661535859108
+Step [14/76] :: loss 0.08456596732139587
+Step [15/76] :: loss 0.08456581085920334
+Step [16/76] :: loss 0.08456562459468842
+Step [17/76] :: loss 0.08456543833017349
+Step [18/76] :: loss 0.08456526696681976
+Step [19/76] :: loss 0.08456508070230484
+Step [20/76] :: loss 0.08456490933895111
+Step [21/76] :: loss 0.08456480503082275
+Step [22/76] :: loss 0.08456454426050186
+Step [23/76] :: loss 0.08456435054540634
+Step [24/76] :: loss 0.08456416428089142
+Step [25/76] :: loss 0.08456399291753769
+Step [26/76] :: loss 0.08456380665302277
+Step [27/76] :: loss 0.08456362783908844
+Step [28/76] :: loss 0.0845634788274765
+Step [29/76] :: loss 0.08456326276063919
+Step [30/76] :: loss 0.08456311374902725
+Step [31/76] :: loss 0.08456287533044815
+Step [32/76] :: loss 0.0845627710223198
+Step [33/76] :: loss 0.08456248790025711
+Step [34/76] :: loss 0.08456230163574219
+Step [35/76] :: loss 0.08456211537122726
+Step [36/76] :: loss 0.08456192910671234
+Step [37/76] :: loss 0.08456172794103622
+Step [38/76] :: loss 0.08456152677536011
+Step [39/76] :: loss 0.08456135541200638
+Step [40/76] :: loss 0.08456113934516907
+Step [41/76] :: loss 0.08456099033355713
+Step [42/76] :: loss 0.08456075191497803
+Step [43/76] :: loss 0.08456055074930191
+Step [44/76] :: loss 0.08456035703420639
+Step [45/76] :: loss 0.08456019312143326
+Step [46/76] :: loss 0.08455996215343475
+Step [47/76] :: loss 0.08455974608659744
+Step [48/76] :: loss 0.08455958962440491
+Step [49/76] :: loss 0.08455938845872879
+Step [50/76] :: loss 0.0845591351389885
+Step [51/76] :: loss 0.08455897122621536
+Step [52/76] :: loss 0.08455873280763626
+Step [53/76] :: loss 0.08455851674079895
+Step [54/76] :: loss 0.08455831557512283
+Step [55/76] :: loss 0.08455809950828552
+Step [56/76] :: loss 0.0845578983426094
+Step [57/76] :: loss 0.08455772697925568
+Step [58/76] :: loss 0.08455747365951538
+Step [59/76] :: loss 0.08455726504325867
+Step [60/76] :: loss 0.08455704152584076
+Step [61/76] :: loss 0.08455682545900345
+Step [62/76] :: loss 0.0845566913485527
+Step [63/76] :: loss 0.08455641567707062
+Step [64/76] :: loss 0.0845562294125557
+Step [65/76] :: loss 0.0845559760928154
+Step [66/76] :: loss 0.08455575257539749
+Step [67/76] :: loss 0.08455567806959152
+Step [68/76] :: loss 0.08455538004636765
+Step [69/76] :: loss 0.08455513417720795
+Step [70/76] :: loss 0.08455493301153183
+Step [71/76] :: loss 0.0845547616481781
+Step [72/76] :: loss 0.0845545157790184
+Step [73/76] :: loss 0.08455430716276169
+Step [74/76] :: loss 0.08455409109592438
+Step [75/76] :: loss 0.08455387502908707
+Epoch 2/5 - Train Loss: 0.0846 | Val Loss: 0.0846
+Step [0/76] :: loss 0.08455367386341095
+Step [1/76] :: loss 0.08455345779657364
+Step [2/76] :: loss 0.08455327898263931
+Step [3/76] :: loss 0.08455302566289902
+Step [4/76] :: loss 0.08455284684896469
+Step [5/76] :: loss 0.08455260097980499
+Step [6/76] :: loss 0.08455251157283783
+Step [7/76] :: loss 0.08455217629671097
+Step [8/76] :: loss 0.08455196022987366
+Step [9/76] :: loss 0.08455173671245575
+Step [10/76] :: loss 0.08455150574445724
+Step [11/76] :: loss 0.08455128222703934
+Step [12/76] :: loss 0.08455107361078262
+Step [13/76] :: loss 0.08455085009336472
+Step [14/76] :: loss 0.08455066382884979
+Step [15/76] :: loss 0.0845504179596901
+Step [16/76] :: loss 0.0845501720905304
+Step [17/76] :: loss 0.08454999327659607
+Step [18/76] :: loss 0.08454974740743637
+Step [19/76] :: loss 0.08454957604408264
+Step [20/76] :: loss 0.08454928547143936
+Step [21/76] :: loss 0.08454907685518265
+Step [22/76] :: loss 0.08454883098602295
+Step [23/76] :: loss 0.08454860001802444
+Step [24/76] :: loss 0.08454836905002594
+Step [25/76] :: loss 0.08454813808202744
+Step [26/76] :: loss 0.08454791456460953
+Step [27/76] :: loss 0.08454767614603043
+Step [28/76] :: loss 0.0845474824309349
+Step [29/76] :: loss 0.08454721421003342
+Step [30/76] :: loss 0.08454698324203491
+Step [31/76] :: loss 0.08454679697751999
+Step [32/76] :: loss 0.0845465213060379
+Step [33/76] :: loss 0.0845462828874588
+Step [34/76] :: loss 0.0845460444688797
+Step [35/76] :: loss 0.0845458060503006
+Step [36/76] :: loss 0.0845455750823021
+Step [37/76] :: loss 0.08454533666372299
+Step [38/76] :: loss 0.0845450907945633
+Step [39/76] :: loss 0.08454485982656479
+Step [40/76] :: loss 0.08454462140798569
+Step [41/76] :: loss 0.08454437553882599
+Step [42/76] :: loss 0.08454412966966629
+Step [43/76] :: loss 0.08454390615224838
+Step [44/76] :: loss 0.08454366028308868
+Step [45/76] :: loss 0.08454341441392899
+Step [46/76] :: loss 0.08454316854476929
+Step [47/76] :: loss 0.08454293757677078
+Step [48/76] :: loss 0.08454279601573944
+Step [49/76] :: loss 0.08454243838787079
+Step [50/76] :: loss 0.08454219251871109
+Step [51/76] :: loss 0.0845419391989708
+Step [52/76] :: loss 0.08454172313213348
+Step [53/76] :: loss 0.0845414474606514
+Step [54/76] :: loss 0.0845411941409111
+Step [55/76] :: loss 0.0845409482717514
+Step [56/76] :: loss 0.08454076200723648
+Step [57/76] :: loss 0.08454044908285141
+Step [58/76] :: loss 0.08454020321369171
+Step [59/76] :: loss 0.08453995734453201
+Step [60/76] :: loss 0.08453970402479172
+Step [61/76] :: loss 0.08453945070505142
+Step [62/76] :: loss 0.08453920483589172
+Step [63/76] :: loss 0.08453898876905441
+Step [64/76] :: loss 0.08453870564699173
+Step [65/76] :: loss 0.08453850448131561
+Step [66/76] :: loss 0.08453819900751114
+Step [67/76] :: loss 0.08453794568777084
+Step [68/76] :: loss 0.08453768491744995
+Step [69/76] :: loss 0.08453743904829025
+Step [70/76] :: loss 0.08453720062971115
+Step [71/76] :: loss 0.08453693985939026
+Step [72/76] :: loss 0.08453668653964996
+Step [73/76] :: loss 0.08453647792339325
+Step [74/76] :: loss 0.08453617990016937
+Step [75/76] :: loss 0.08453592658042908
+Epoch 3/5 - Train Loss: 0.0845 | Val Loss: 0.0845
+Step [0/76] :: loss 0.08453565835952759
+Step [1/76] :: loss 0.08453540503978729
+Step [2/76] :: loss 0.0845351591706276
+Step [3/76] :: loss 0.0845348909497261
+Step [4/76] :: loss 0.0845346599817276
+Step [5/76] :: loss 0.08453445881605148
+Step [6/76] :: loss 0.08453412353992462
+Step [7/76] :: loss 0.08453385531902313
+Step [8/76] :: loss 0.08453360944986343
+Step [9/76] :: loss 0.08453332632780075
+Step [10/76] :: loss 0.08453308045864105
+Step [11/76] :: loss 0.08453281223773956
+Step [12/76] :: loss 0.08453255146741867
+Step [13/76] :: loss 0.08453227579593658
+Step [14/76] :: loss 0.08453202247619629
+Step [15/76] :: loss 0.0845317617058754
+Step [16/76] :: loss 0.08453149348497391
+Step [17/76] :: loss 0.08453122526407242
+Step [18/76] :: loss 0.08453095704317093
+Step [19/76] :: loss 0.08453074097633362
+Step [20/76] :: loss 0.08453049510717392
+Step [21/76] :: loss 0.08453015983104706
+Step [22/76] :: loss 0.08452989906072617
+Step [23/76] :: loss 0.08452963083982468
+Step [24/76] :: loss 0.08452935516834259
+Step [25/76] :: loss 0.08452907204627991
+Step [26/76] :: loss 0.08452882617712021
+Step [27/76] :: loss 0.0845286175608635
+Step [28/76] :: loss 0.08452826738357544
+Step [29/76] :: loss 0.08452800661325455
+Step [30/76] :: loss 0.08452776819467545
+Step [31/76] :: loss 0.08452746272087097
+Step [32/76] :: loss 0.08452717959880829
+Step [33/76] :: loss 0.0845269039273262
+Step [34/76] :: loss 0.08452665060758591
+Step [35/76] :: loss 0.08452640473842621
+Step [36/76] :: loss 0.08452607691287994
+Step [37/76] :: loss 0.08452583104372025
+Step [38/76] :: loss 0.08452552556991577
+Step [39/76] :: loss 0.08452524989843369
+Step [40/76] :: loss 0.0845249593257904
+Step [41/76] :: loss 0.08452468365430832
+Step [42/76] :: loss 0.08452440053224564
+Step [43/76] :: loss 0.08452415466308594
+Step [44/76] :: loss 0.08452385663986206
+Step [45/76] :: loss 0.08452356606721878
+Step [46/76] :: loss 0.0845232903957367
+Step [47/76] :: loss 0.08452299982309341
+Step [48/76] :: loss 0.08452272415161133
+Step [49/76] :: loss 0.08452246338129044
+Step [50/76] :: loss 0.08452215045690536
+Step [51/76] :: loss 0.08452187478542328
+Step [52/76] :: loss 0.0845215767621994
+Step [53/76] :: loss 0.08452130109071732
+Step [54/76] :: loss 0.08452100306749344
+Step [55/76] :: loss 0.08452075719833374
+Step [56/76] :: loss 0.08452044427394867
+Step [57/76] :: loss 0.08452014625072479
+Step [58/76] :: loss 0.08451986312866211
+Step [59/76] :: loss 0.08451956510543823
+Step [60/76] :: loss 0.08451928198337555
+Step [61/76] :: loss 0.08451898396015167
+Step [62/76] :: loss 0.08451870828866959
+Step [63/76] :: loss 0.08451841026544571
+Step [64/76] :: loss 0.08451811969280243
+Step [65/76] :: loss 0.08451784402132034
+Step [66/76] :: loss 0.08451753109693527
+Step [67/76] :: loss 0.08451724052429199
+Step [68/76] :: loss 0.0845169723033905
+Step [69/76] :: loss 0.08451665192842484
+Step [70/76] :: loss 0.08451636135578156
+Step [71/76] :: loss 0.08451615273952484
+Step [72/76] :: loss 0.0845157653093338
+Step [73/76] :: loss 0.08451545983552933
+Step [74/76] :: loss 0.08451516926288605
+Step [75/76] :: loss 0.08451487869024277
+Epoch 4/5 - Train Loss: 0.0845 | Val Loss: 0.0845
+Step [0/76] :: loss 0.08451459556818008
+Step [1/76] :: loss 0.08451427519321442
+Step [2/76] :: loss 0.08451397716999054
+Step [3/76] :: loss 0.08451367914676666
+Step [4/76] :: loss 0.08451338112354279
+Step [5/76] :: loss 0.08451308310031891
+Step [6/76] :: loss 0.08451277762651443
+Step [7/76] :: loss 0.08451253175735474
+Step [8/76] :: loss 0.08451220393180847
+Step [9/76] :: loss 0.08451186865568161
+Step [10/76] :: loss 0.08451158553361893
+Step [11/76] :: loss 0.08451125770807266
+Step [12/76] :: loss 0.08451098203659058
+Step [13/76] :: loss 0.08451065421104431
+Step [14/76] :: loss 0.08451034128665924
+Step [15/76] :: loss 0.08451004326343536
+Step [16/76] :: loss 0.08450976014137268
+Step [17/76] :: loss 0.08450943976640701
+Step [18/76] :: loss 0.08450911939144135
+Step [19/76] :: loss 0.08450882136821747
+Step [20/76] :: loss 0.0845085009932518
+Step [21/76] :: loss 0.08450818061828613
+Step [22/76] :: loss 0.08450789004564285
+Step [23/76] :: loss 0.08450757712125778
+Step [24/76] :: loss 0.08450733125209808
+Step [25/76] :: loss 0.08450695872306824
+Step [26/76] :: loss 0.08450664579868317
+Step [27/76] :: loss 0.08450641483068466
+Step [28/76] :: loss 0.08450601994991302
+Step [29/76] :: loss 0.08450570702552795
+Step [30/76] :: loss 0.08450538665056229
+Step [31/76] :: loss 0.08450508117675781
+Step [32/76] :: loss 0.08450476825237274
+Step [33/76] :: loss 0.08450444042682648
+Step [34/76] :: loss 0.084504134953022
+Step [35/76] :: loss 0.08450380712747574
+Step [36/76] :: loss 0.08450348675251007
+Step [37/76] :: loss 0.0845031812787056
+Step [38/76] :: loss 0.08450286090373993
+Step [39/76] :: loss 0.08450253307819366
+Step [40/76] :: loss 0.08450224995613098
+Step [41/76] :: loss 0.08450189977884293
+Step [42/76] :: loss 0.08450157195329666
+Step [43/76] :: loss 0.08450128138065338
+Step [44/76] :: loss 0.08450101315975189
+Step [45/76] :: loss 0.08450062572956085
+Step [46/76] :: loss 0.08450032770633698
+Step [47/76] :: loss 0.08449997007846832
+Step [48/76] :: loss 0.08449964970350266
+Step [49/76] :: loss 0.08449932187795639
+Step [50/76] :: loss 0.08449899405241013
+Step [51/76] :: loss 0.08449866622686386
+Step [52/76] :: loss 0.0844983458518982
+Step [53/76] :: loss 0.08449802547693253
+Step [54/76] :: loss 0.08449769020080566
+Step [55/76] :: loss 0.0844973623752594
+Step [56/76] :: loss 0.08449704200029373
+Step [57/76] :: loss 0.08449671417474747
+Step [58/76] :: loss 0.084496408700943
+Step [59/76] :: loss 0.08449605852365494
+Step [60/76] :: loss 0.08449572324752808
+Step [61/76] :: loss 0.0844954326748848
+Step [62/76] :: loss 0.08449506759643555
+Step [63/76] :: loss 0.08449475467205048
+Step [64/76] :: loss 0.08449439704418182
+Step [65/76] :: loss 0.08449407666921616
+Step [66/76] :: loss 0.0844937339425087
+Step [67/76] :: loss 0.08449340611696243
+Step [68/76] :: loss 0.08449307829141617
+Step [69/76] :: loss 0.0844927430152893
+Step [70/76] :: loss 0.08449240773916245
+Step [71/76] :: loss 0.08449208736419678
+Step [72/76] :: loss 0.08449172973632812
+Step [73/76] :: loss 0.08449140191078186
+Step [74/76] :: loss 0.08449109643697739
+Step [75/76] :: loss 0.08449073880910873
+Epoch 5/5 - Train Loss: 0.0845 | Val Loss: 0.0845
+
+Результаты на тестовой выборке:
+Потери: 0.0845
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\tgucv\NN\nn-lab-5\main.py", line 48, in <module>
+    visualize_test(model)
+  File "C:\Users\user\Desktop\tgucv\NN\nn-lab-5\main.py", line 39, in visualize_test
+    visualize(model, dataset)
+  File "C:\Users\user\Desktop\tgucv\NN\nn-lab-5\visualize.py", line 18, in visualize
+    output = model(image_tensor)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\tgucv\NN\nn-lab-5\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\tgucv\NN\nn-lab-5\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\tgucv\NN\nn-lab-5\model.py", line 129, in forward
+    c1 = self.enc1(x); p1 = self.pool1(c1)
+         ^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\tgucv\NN\nn-lab-5\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\tgucv\NN\nn-lab-5\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\tgucv\NN\nn-lab-5\.venv\Lib\site-packages\torch\nn\modules\container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\tgucv\NN\nn-lab-5\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\tgucv\NN\nn-lab-5\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\tgucv\NN\nn-lab-5\.venv\Lib\site-packages\torch\nn\modules\conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\tgucv\NN\nn-lab-5\.venv\Lib\site-packages\torch\nn\modules\conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Input type (torch.FloatTensor) and weight type (torch.cuda.FloatTensor) should be the same or input should be a MKLDNN tensor and weight is a dense tensor
+
+Process finished with exit code 1

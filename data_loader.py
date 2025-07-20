@@ -28,10 +28,10 @@ class SimpleSegmentationDataset():
     return image, target
 
 
-def download_data(path):
+def download_data(path, resize_size=(480, 256)):
     data = []
     for path_image in sorted(os.listdir(path=path)):
-        image = Image.open(path + "/" + path_image).resize((260, 484))
+        image = Image.open(path + "/" + path_image).resize(resize_size)
         data.append(np.array(image))
     return data
 

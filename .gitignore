@@ -1,3 +1,4 @@
 .idea
 /data
 /__pycache__
+vgg_epoch_25_2.pth
